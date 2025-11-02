@@ -1,0 +1,132 @@
+# ============================
+# OS / EDITOR JUNK
+# ============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# ============================
+# PYTHON
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ============================
+# ML / TENSORFLOW ARTIFACTS
+# ============================
+
+# Keras / TF models
+*.keras
+*.h5
+*.hdf5
+saved_model/
+*/saved_model/
+*/saved_model/*
+
+# TF checkpoints
+*.ckpt
+*.ckpt.*
+checkpoint
+checkpoints/
+training_checkpoints/
+
+# TFLite
+*.tflite
+
+# ONNX / CoreML (future)
+*.onnx
+*.mlmodel
+
+# TF Record files
+*.tfrecord
+
+# Metrics & logs
+logs/
+*.log
+events.out.tfevents.*
+
+# TensorBoard
+tensorboard/
+tb_logs/
+tb/
+
+# Intermediate training output
+tmp/
+temp/
+scratch/
+cache/
+.cache/
+
+# ============================
+# AUDIO DATA / RAW DATASETS
+# ============================
+
+# All audio files
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.m4a
+
+# Common dataset folders
+data/
+datasets/
+dataset/
+audio/
+audio-data/
+recordings/
+samples/
+augmented/
+aug/
+false_positives/
+false-negatives/
+positives/
+negatives/
+noise/
+background/
+
+# Allow your gong sound for notification
+!gong.wav
+
+# ============================
+# CONFIG / KEYS
+# ============================
+.env
+*.env
+.env.*
+secrets.json
+config.json
+local_settings.py
+
+# ============================
+# ARCHIVES / LARGE FILES
+# ============================
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+*.npz
+*.npy
+*.pkl
